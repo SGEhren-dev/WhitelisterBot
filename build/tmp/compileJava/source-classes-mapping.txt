@@ -1,0 +1,20 @@
+com/github/sgehrendev/whitelisterbot/core/Member.java
+ com.github.sgehrendev.whitelisterbot.core.Member
+com/github/sgehrendev/whitelisterbot/listeners/RegisterListener.java
+ com.github.sgehrendev.whitelisterbot.listeners.RegisterListener
+com/github/sgehrendev/whitelisterbot/core/Core.java
+ com.github.sgehrendev.whitelisterbot.core.Core
+com/github/sgehrendev/whitelisterbot/core/listener/Ban.java
+ com.github.sgehrendev.whitelisterbot.core.listener.Ban
+com/github/sgehrendev/whitelisterbot/core/BotManager.java
+ com.github.sgehrendev.whitelisterbot.core.BotManager
+com/github/sgehrendev/whitelisterbot/core/Bot.java
+ com.github.sgehrendev.whitelisterbot.core.Bot
+com/github/sgehrendev/whitelisterbot/listeners/BanListener.java
+ com.github.sgehrendev.whitelisterbot.listeners.BanListener
+com/github/sgehrendev/whitelisterbot/core/listener/Whitelist.java
+ com.github.sgehrendev.whitelisterbot.core.listener.Whitelist
+com/github/sgehrendev/whitelisterbot/listeners/WhitelistListener.java
+ com.github.sgehrendev.whitelisterbot.listeners.WhitelistListener
+com/github/sgehrendev/whitelisterbot/listeners/Listener.java
+ com.github.sgehrendev.whitelisterbot.listeners.Listener
