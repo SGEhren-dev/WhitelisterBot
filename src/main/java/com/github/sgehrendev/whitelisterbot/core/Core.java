@@ -21,9 +21,10 @@ public class Core {
         getBotManager().addListeners(new Whitelist(getBotManager()));
         getBotManager().addListeners(new Ban(getBotManager()));
 
+        //Create a new instance of Bot and pass it the BotManager, then start the thread
         Bot bot = new Bot(getBotManager());
         bot.start();
-
+        //Announce the bot has been started
         System.out.println("Bot has been started...");
 
         //Create the scanner to accept input
@@ -64,15 +65,29 @@ public class Core {
         }
     }
 
+    /**
+     * Get the bot manager instance
+     * @return current instance of the bot manager
+     */
     private static BotManager getBotManager() {
         return botManager;
     }
 
+    /**
+     * Get a username that was entered in the console
+     * @param string Line the user typed into the console
+     * @return parsed[2] - Username
+     */
     private static String getNameFromWhitelistCommand(String string) {
         String[] parsed = string.split(" ");
         return parsed[2];
     }
 
+    /**
+     * Get a username that was entered into the console
+     * @param string Line the user entered into the console
+     * @return parsed[1] - Username
+     */
     private static String getNameFromBanCommand(String string) {
         String[] parsed = string.split(" ");
         return parsed[1];
